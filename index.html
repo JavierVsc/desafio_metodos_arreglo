@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafío Métodos de Arreglo</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Lista de Tareas</h1>
+    <hr>
+
+    <label for="input-tarea">Nueva tarea</label>
+
+    <div class="fila-agregar">
+      <input type="text" id="input-tarea" placeholder="Ingresa una tarea">
+      <button id="btn-agregar">Agregar</button>
+    </div>
+
+    <div class="contenido">
+      <div class="resumen">
+        <p>Total: <span id="total-tareas">0</span></p>
+        <p>Realizadas: <span id="tareas-realizadas">0</span></p>
+      </div>
+
+      <div class="lista">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Tarea</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="lista-tareas"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
